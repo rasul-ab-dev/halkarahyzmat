@@ -1,0 +1,27 @@
+.news_id {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.news_id img {
+  margin-bottom: 30px;
+}
+.test_news {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(24px, 3.33vw, 48px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+}
+.short_descrip {
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-gray);
+  margin: 20px 0 16px;
+}
+.description {
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-gray);
+  margin-bottom: 50px;
+}

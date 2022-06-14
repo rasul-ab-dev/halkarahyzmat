@@ -1,0 +1,72 @@
+.products_id_wrapper {
+  margin-bottom: 50px;
+}
+.products_name {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  padding: 20px 0;
+}
+.products_short_descrip {
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(14px, 1.25vw, 18px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-gray);
+}
+.products_title {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(24px, 3.33vw, 48px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  padding: 20px 0;
+  text-align: center;
+}
+.products_descrip {
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-black);
+}
+.option_btn {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+  padding: 10px 60px;
+}
+.option_title {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(24px, 3.33vw, 48px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  padding: 20px 0;
+  text-align: center;
+}
+.option_subtitle {
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-black);
+}
+.request_btn_wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 50px 0;
+}
+.request_btn {
+  padding: 25px 100px;
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-regular);
+}
+.download_btn {
+  padding: 25px 100px;
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+  border: 1px solid var(--clr-blue);
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-regular);
+}

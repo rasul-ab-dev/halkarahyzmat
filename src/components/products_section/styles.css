@@ -1,0 +1,17 @@
+.products_wrapper {
+  width: clamp(300px, 34.7vw, 500px);
+}
+.products_name {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(16px, 1.66vw, 24px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  padding: 20px 0;
+}
+.products_descrip {
+  font-family: var(--ff-IBMPlex);
+  font-size: clamp(14px, 1.25vw, 18px);
+  font-weight: var(--fw-regular);
+  color: #8e8e8e;
+  line-height: 25px;
+}

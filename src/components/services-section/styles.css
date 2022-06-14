@@ -1,0 +1,26 @@
+.sevices_title {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(24px, 3.33vw, 48px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  text-align: center;
+  margin-bottom: 64px;
+}
+.services_link_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.services_link {
+  font-family: var(--ff-Montserrat);
+  font-size: clamp(18px, 2.63vw, 38px);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  padding: 15px 0;
+}
+.line {
+  position: relative;
+  width: 100vw;
+  left: -70px;
+  height: 1px;
+  background-color: rgb(107, 94, 94);
+}
